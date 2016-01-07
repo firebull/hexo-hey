@@ -112,21 +112,28 @@ function TranslateConfig($translateProvider) {
     'UPDATE': 'Обновить',
     'PUBLISH': 'Публикация',
     'UNPUBLISH': 'Скрыть',
+    // Option: 
+    //'UNPUBLISH': 'Переместить в черновики',
     'SAVE_DRAFT': 'Сохранить',
     'CANCEL': 'Отмена',
     'DELETE': 'Удалить',
     'DELETE_POST': 'Удалить запись',
 
     'PUBLISHED': 'Опубликована',
+    // Option: 
+    //'PUBLISHED': 'Опубликовано',
+    // (многие держат в уме вместо записи слово мужского рода «пост». Чтобы охватить оба варианта, лучше указать средний род: мол, это опубликовано).
     'DRAFT': 'Черновик',
 
     'INPUT_USERNAME': 'Укажите логин',
     'INPUT_PASSWORD': 'Введите пароль',
     'INPUT_TITLE': 'Напишите заголовок',
+    // Option:
+    //'INPUT_TITLE': 'Введите заголовок',
     'INPUT_SLUG': 'Укажите SEO URL',
     'INPUT_SLUG_EXIST': 'Такой SEO URL уже существует',
-    'INPUT_DATE': 'Правильный формат даты yyyy-MM-dd( HH:mm:ss)',
-    'INPUT_SEARCH': 'Филтр по заголовку, категории или тэгу',
+    'INPUT_DATE': 'Правильный формат даты yyyy-MM-dd (HH:mm:ss)',
+    'INPUT_SEARCH': 'Фильтр по заголовку, категории или тэгу',
 
     'CONFIRM_DELETE_POST': 'Вы уверены, что хотите удалить запись?',
 
